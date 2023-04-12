@@ -1,0 +1,128 @@
+.navigation{
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    background-color: #D9eece;
+    border-right: solid 1px #4c0072;
+    border-bottom: solid 1px #4c0072;
+    border-left: solid 1px #4c0072;
+    display:flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #226800;
+    font-weight: bold;
+    display:block;
+    padding: 0.75em 1em;
+}
+
+.navigation a:hover {
+    background-color: #C4E8B1;
+    }/* try hover on other elements, for example paragraphs, table rows.
+
+/* a:link{
+    color:#609;
+}
+
+a:visited {
+    color: #e90c0c;
+    }
+
+a:hover {
+    color: #339900;
+    } */
+
+h1 {
+    font-size: 3em;
+    color: #609;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    border:1px solid #4c0072;
+    background-color: #f0e6f5;
+    padding: 0.5em;
+    margin-bottom:0;
+}
+
+h2{
+    font-style: italic;
+    font-size:1.5em;
+    background-color: #f0e6f5;
+    padding: 0.25em 0.5em;
+}
+
+h3{
+    border-bottom: 1px solid;
+
+/*     
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-color: #99007f; 
+    */
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#555;
+}
+
+h2, h3, h4 { color: #99007f;
+}
+
+ul{
+    list-style:square;
+    }
+    
+/* ol{
+    /* list-style:; 
+    } */
+
+    /* .highlight{
+    color:#ff6600
+}
+
+.special{
+    font-size:2em;
+    color: #00AA00;
+    font-style:italic;
+}
+h1.highlight{
+    font-weight:bold;
+    text-transform: uppercase;
+} 
+
+p{
+    color:#ff0062
+}
+*/
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    }
+
+form {
+    width: 30em;
+    }
+        
+.form-control {
+    margin-bottom: 1em;
+}
+
+/*Extend starting height*/ 
+textarea {
+	min-height: 10em; 
+}
+
+/*Why the descendant selector here? */
+.form-control input,
+.form-control textarea {
+	padding: 0.5em; /* More space inside the boxes */
+}
+
+
+
+
+       
